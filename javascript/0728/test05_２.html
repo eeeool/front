@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test5.html</title>
+
+  <script>
+    'use strict';
+
+    let atom = 100;
+    document.write("atom: " + atom);
+    console.log("atom: " + atom);
+    
+    atom++;
+    document.write("atom: " + atom);
+    console.log("atom: " + atom);
+    
+    function mbc() {
+      atom ++;
+      document.write("atom: " + atom);
+      console.log("atom: " + atom);
+    }
+    atom ++;
+    document.write("atom: " + atom);
+    console.log("atom: " + atom);
+
+    mbc();
+    document.write("atom: " + atom);
+    console.log("atom: " + atom);
+    </script>
+</head>
+<body>
+  <h3>이곳은 본문입니다.</h3>
+</body>
+</html>
